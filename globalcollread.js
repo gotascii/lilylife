@@ -2,20 +2,21 @@ function $globalcollread (name) {
 	var thisPtr = this;
 
   this.collName = name;
+  this.coll = LilyApp.getSharedValue(name);
 
 	this.inlet1 = new this.inletClass("inlet1", this, "set name or index");
 
 	this.outlet1 = new this.outletClass("outlet1", this, "value at index");
 
 	this.inlet1["anything"] = function (arg) {
-    var args = LilyUtils.splitArgs(arg);
-	  if (args[0] == "set") {
-      thisPtr.collName = args[1];
-	  } else {
-	    var idx = parseInt(args[0]);
-      var val = LilyApp.getSharedValue(thisPtr.collName)[idx];
-		  thisPtr.outlet1.doOutlet(val);
-	  }
+    if (typeof(arg) == "number") {
+		  thisPtr.outlet1.doOutlet(thisPtr.coll[arg]);
+    } else {
+      var args = LilyUtils.splitArgs(arg);
+      var name = args[1];
+      thisPtr.collName = name;
+      thisPtr.coll = LilyApp.getSharedValue(name);
+    }
 	}
 
 	return this;
