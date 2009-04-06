@@ -1,8 +1,6 @@
 function $globalcoll (collName) {
 	var thisPtr = this;
-
-	LilyApp.setSharedValue(collName,[]);		
-
+	LilyApp.setSharedValue(collName,[]);
 	return this;
 }
 
