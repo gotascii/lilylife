@@ -1,60 +1,73 @@
-var patch={'version':'0.1-public_beta-3','platform':'apple','title':'life','width':800,'height':600,'color':'#FFFFFF','mode':'performance','description':'','category':'','heightInSubPatch':'0','widthInSubPatch':'0','objArray':{
-	'message!uid=1239073733833':{'name':'message','top':168,'left':71,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':4,'height':20,'width':82,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'$1-world_0','objID':'message!uid=1239073733833','type':'object'},
+var patch={'version':'0.1-public_beta-3','platform':'apple','title':'life','width':801,'height':623,'color':'#FFFFFF','mode':'edit','description':'','category':'','heightInSubPatch':'0','widthInSubPatch':'0','objArray':{
+	'message!uid=1239073733833':{'name':'message','top':167,'left':65,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':4,'height':20,'width':82,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'$1-world_0','objID':'message!uid=1239073733833','type':'object'},
 	'loadbang!uid=1239073738194':{'name':'loadbang','top':8,'left':13,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':5,'height':20,'width':61,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'loadbang!uid=1239073738194','type':'object'},
-	'thispatch!uid=1239073807251':{'name':'thispatch','top':86,'left':13,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':6,'height':20,'width':61,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'thispatch!uid=1239073807251','type':'object'},
-	'message!uid=1239073815877':{'name':'message','top':47,'left':13,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':7,'height':20,'width':61,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'patchID','objID':'message!uid=1239073815877','type':'object'},
 	'message!uid=2478147632902':{'name':'message','top':201,'left':104,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':4,'height':20,'width':82,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'$1-world_1','objID':'message!uid=2478147632902','type':'object'},
 	'message!uid=3717221538327':{'name':'message','top':241,'left':138,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':4,'height':20,'width':97,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'$1-world_edit','objID':'message!uid=3717221538327','type':'object'},
-	'globalcoll!uid=2478016403674':{'name':'globalcoll','top':289,'left':71,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':1,'height':20,'width':62,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'globalcoll!uid=2478016403674','type':'object'},
+	'globalcoll!uid=2478016403674':{'name':'globalcoll','top':288,'left':65,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':1,'height':20,'width':62,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'globalcoll!uid=2478016403674','type':'object'},
 	'evolver!uid=1239074666121':{'name':'evolver','top':404,'left':13,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':9,'height':16,'width':34,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'evolver!uid=1239074666121','type':'object'},
 	'message!uid=1239074748333':{'name':'message','top':321,'left':13,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':10,'height':20,'width':261,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'$1-world_0 $1-world_1 $1-world_edit','objID':'message!uid=1239074748333','type':'object'},
-	'trigger!uid=1239074826636':{'name':'trigger','top':120,'left':13,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':1,'height':20,'width':67,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'s s','objID':'trigger!uid=1239074826636','type':'object'},
 	'button!uid=1239074969556':{'name':'button','top':5,'left':111,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':12,'height':24,'width':24,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','inspectorConfig':[{name:"buttonText", value:"", label:"Button Text", type:"string", input:"textarea"}],'objID':'button!uid=1239074969556','type':'object'},
-	'message!uid=1239073815877.outlet1_thispatch!uid=1239073807251.inlet1':{'inlet':'thispatch!uid=1239073807251.inlet1','outlet':'message!uid=1239073815877.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
-{'orientation':'vertical',startLeft:13,startTop:74,endLeft:13,endTop:81},
-{'orientation':'horizontal',startLeft:13,startTop:81,endLeft:13,endTop:81},
-{'orientation':'vertical',startLeft:13,startTop:81,endLeft:13,endTop:91}
-]
-},
+	'inlet!uid=1239075646050':{'name':'inlet','top':363,'left':13,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':13,'height':20,'width':34,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'inlet!uid=1239075646050','type':'object'},
+	'outlet!uid=1239075680676':{'name':'outlet','top':438,'left':53,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':13,'height':20,'width':41,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'outlet!uid=1239075680676','type':'object'},
 	'message!uid=1239073733833.outlet1_globalcoll!uid=2478016403674.inlet1':{'inlet':'globalcoll!uid=2478016403674.inlet1','outlet':'message!uid=1239073733833.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
-{'orientation':'vertical',startLeft:71,startTop:195,endLeft:71,endTop:203.5},
-{'orientation':'horizontal',startLeft:71,startTop:203.5,endLeft:71,endTop:203.5},
-{'orientation':'vertical',startLeft:71,startTop:203.5,endLeft:71,endTop:294}
+{'orientation':'vertical',startLeft:65,startTop:194,endLeft:65,endTop:202.5},
+{'orientation':'horizontal',startLeft:65,startTop:202.5,endLeft:65,endTop:202.5},
+{'orientation':'vertical',startLeft:65,startTop:202.5,endLeft:65,endTop:293}
 ]
 },
 	'message!uid=2478147632902.outlet1_globalcoll!uid=2478016403674.inlet1':{'inlet':'globalcoll!uid=2478016403674.inlet1','outlet':'message!uid=2478147632902.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
 {'orientation':'vertical',startLeft:104,startTop:228,endLeft:104,endTop:262.5},
-{'orientation':'horizontal',startLeft:104,startTop:262.5,endLeft:71,endTop:262.5},
-{'orientation':'vertical',startLeft:71,startTop:262.5,endLeft:71,endTop:294}
+{'orientation':'horizontal',startLeft:104,startTop:262.5,endLeft:65,endTop:262.5},
+{'orientation':'vertical',startLeft:65,startTop:262.5,endLeft:65,endTop:293}
 ]
 },
 	'message!uid=3717221538327.outlet1_globalcoll!uid=2478016403674.inlet1':{'inlet':'globalcoll!uid=2478016403674.inlet1','outlet':'message!uid=3717221538327.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
 {'orientation':'vertical',startLeft:138,startTop:268,endLeft:138,endTop:282.5},
-{'orientation':'horizontal',startLeft:138,startTop:282.5,endLeft:71,endTop:282.5},
-{'orientation':'vertical',startLeft:71,startTop:282.5,endLeft:71,endTop:294}
+{'orientation':'horizontal',startLeft:138,startTop:282.5,endLeft:65,endTop:282.5},
+{'orientation':'vertical',startLeft:65,startTop:282.5,endLeft:65,endTop:293}
 ]
 },
-	'thispatch!uid=1239073807251.outlet1_trigger!uid=1239074826636.inlet1':{'inlet':'trigger!uid=1239074826636.inlet1','outlet':'thispatch!uid=1239073807251.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
-{'orientation':'vertical',startLeft:13,startTop:113,endLeft:13,endTop:122.5},
-{'orientation':'horizontal',startLeft:13,startTop:122.5,endLeft:13,endTop:122.5},
-{'orientation':'vertical',startLeft:13,startTop:122.5,endLeft:13,endTop:125}
+	'message!uid=1239074748333.outlet1_evolver!uid=1239074666121.inlet2':{'inlet':'evolver!uid=1239074666121.inlet2','outlet':'message!uid=1239074748333.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:13,startTop:348,endLeft:13,endTop:360.5},
+{'orientation':'horizontal',startLeft:13,startTop:360.5,endLeft:53,endTop:360.5},
+{'orientation':'vertical',startLeft:53,startTop:360.5,endLeft:53,endTop:409}
 ]
 },
+	'inlet!uid=1239075646050.outlet1_evolver!uid=1239074666121.inlet1':{'inlet':'evolver!uid=1239074666121.inlet1','outlet':'inlet!uid=1239075646050.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:13,startTop:390,endLeft:13,endTop:402.5},
+{'orientation':'horizontal',startLeft:13,startTop:402.5,endLeft:13,endTop:402.5},
+{'orientation':'vertical',startLeft:13,startTop:402.5,endLeft:13,endTop:409}
+]
+},
+	'evolver!uid=1239074666121.outlet2_outlet!uid=1239075680676.inlet1':{'inlet':'outlet!uid=1239075680676.inlet1','outlet':'evolver!uid=1239074666121.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:53,startTop:431,endLeft:53,endTop:438},
+{'orientation':'horizontal',startLeft:53,startTop:438,endLeft:53,endTop:438},
+{'orientation':'vertical',startLeft:53,startTop:438,endLeft:53,endTop:443}
+]
+},
+	'message!uid=1239106610092':{'name':'message','top':82,'left':13,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':14,'height':20,'width':21,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'1','objID':'message!uid=1239106610092','type':'object'},
+	'button!uid=1239074969556.outlet1_message!uid=1239106610092.inlet1':{'inlet':'message!uid=1239106610092.inlet1','outlet':'button!uid=1239074969556.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:111,startTop:36,endLeft:111,endTop:64.5},
+{'orientation':'horizontal',startLeft:111,startTop:64.5,endLeft:13,endTop:64.5},
+{'orientation':'vertical',startLeft:13,startTop:64.5,endLeft:13,endTop:87}
+]
+},
+	'trigger!uid=1239074826636':{'name':'trigger','top':120,'left':13,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':1,'height':20,'width':61,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'i i','objID':'trigger!uid=1239074826636','type':'object'},
 	'trigger!uid=1239074826636.outlet2_message!uid=1239073733833.inlet1':{'inlet':'message!uid=1239073733833.inlet1','outlet':'trigger!uid=1239074826636.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
-{'orientation':'vertical',startLeft:71,startTop:147,endLeft:71,endTop:162},
-{'orientation':'horizontal',startLeft:71,startTop:162,endLeft:71,endTop:162},
-{'orientation':'vertical',startLeft:71,startTop:162,endLeft:71,endTop:173}
+{'orientation':'vertical',startLeft:65,startTop:147,endLeft:65,endTop:162},
+{'orientation':'horizontal',startLeft:65,startTop:162,endLeft:65,endTop:162},
+{'orientation':'vertical',startLeft:65,startTop:162,endLeft:65,endTop:172}
 ]
 },
 	'trigger!uid=1239074826636.outlet2_message!uid=2478147632902.inlet1':{'inlet':'message!uid=2478147632902.inlet1','outlet':'trigger!uid=1239074826636.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
-{'orientation':'vertical',startLeft:71,startTop:147,endLeft:71,endTop:159},
-{'orientation':'horizontal',startLeft:71,startTop:159,endLeft:104,endTop:159},
+{'orientation':'vertical',startLeft:65,startTop:147,endLeft:65,endTop:159},
+{'orientation':'horizontal',startLeft:65,startTop:159,endLeft:104,endTop:159},
 {'orientation':'vertical',startLeft:104,startTop:159,endLeft:104,endTop:206}
 ]
 },
 	'trigger!uid=1239074826636.outlet2_message!uid=3717221538327.inlet1':{'inlet':'message!uid=3717221538327.inlet1','outlet':'trigger!uid=1239074826636.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
-{'orientation':'vertical',startLeft:71,startTop:147,endLeft:71,endTop:158.5},
-{'orientation':'horizontal',startLeft:71,startTop:158.5,endLeft:138,endTop:158.5},
+{'orientation':'vertical',startLeft:65,startTop:147,endLeft:65,endTop:158.5},
+{'orientation':'horizontal',startLeft:65,startTop:158.5,endLeft:138,endTop:158.5},
 {'orientation':'vertical',startLeft:138,startTop:158.5,endLeft:138,endTop:246}
 ]
 },
@@ -64,30 +77,44 @@ var patch={'version':'0.1-public_beta-3','platform':'apple','title':'life','widt
 {'orientation':'vertical',startLeft:13,startTop:240.5,endLeft:13,endTop:326}
 ]
 },
-	'button!uid=1239074969556.outlet1_message!uid=1239073815877.inlet1':{'inlet':'message!uid=1239073815877.inlet1','outlet':'button!uid=1239074969556.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
-{'orientation':'vertical',startLeft:111,startTop:36,endLeft:111,endTop:42},
-{'orientation':'horizontal',startLeft:111,startTop:42,endLeft:13,endTop:42},
-{'orientation':'vertical',startLeft:13,startTop:42,endLeft:13,endTop:52}
+	'message!uid=1239106610092.outlet1_trigger!uid=1239074826636.inlet1':{'inlet':'trigger!uid=1239074826636.inlet1','outlet':'message!uid=1239106610092.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:13,startTop:109,endLeft:13,endTop:122},
+{'orientation':'horizontal',startLeft:13,startTop:122,endLeft:13,endTop:122},
+{'orientation':'vertical',startLeft:13,startTop:122,endLeft:13,endTop:125}
 ]
 },
-	'message!uid=1239074748333.outlet1_evolver!uid=1239074666121.inlet2':{'inlet':'evolver!uid=1239074666121.inlet2','outlet':'message!uid=1239074748333.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
-{'orientation':'vertical',startLeft:13,startTop:348,endLeft:13,endTop:360.5},
-{'orientation':'horizontal',startLeft:13,startTop:360.5,endLeft:53,endTop:360.5},
-{'orientation':'vertical',startLeft:53,startTop:360.5,endLeft:53,endTop:409}
+	'trigger!uid=1239106797356':{'name':'trigger','top':238,'left':432,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':13,'height':20,'width':70,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'b b','objID':'trigger!uid=1239106797356','type':'object'},
+	'value!uid=1239106805453':{'name':'value','top':271,'left':492,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':14,'height':20,'width':89,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'cur_out','objID':'value!uid=1239106805453','type':'object'},
+	'trigger!uid=1239106797356.outlet2_value!uid=1239106805453.inlet1':{'inlet':'value!uid=1239106805453.inlet1','outlet':'trigger!uid=1239106797356.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:492,startTop:265,endLeft:492,endTop:271},
+{'orientation':'horizontal',startLeft:492,startTop:271,endLeft:492,endTop:271},
+{'orientation':'vertical',startLeft:492,startTop:271,endLeft:492,endTop:276}
 ]
 },
-	'inlet!uid=1239075646050':{'name':'inlet','top':363,'left':13,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':13,'height':20,'width':34,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'inlet!uid=1239075646050','type':'object'},
-	'inlet!uid=1239075646050.outlet1_evolver!uid=1239074666121.inlet1':{'inlet':'evolver!uid=1239074666121.inlet1','outlet':'inlet!uid=1239075646050.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
-{'orientation':'vertical',startLeft:13,startTop:390,endLeft:13,endTop:402.5},
-{'orientation':'horizontal',startLeft:13,startTop:402.5,endLeft:13,endTop:402.5},
-{'orientation':'vertical',startLeft:13,startTop:402.5,endLeft:13,endTop:409}
+	'equals!uid=1239106855656':{'name':'equals','top':309,'left':468,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':15,'height':20,'width':34,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'equals!uid=1239106855656','type':'object'},
+	'value!uid=1239106805453.outlet1_equals!uid=1239106855656.inlet2':{'inlet':'equals!uid=1239106855656.inlet2','outlet':'value!uid=1239106805453.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:492,startTop:298,endLeft:492,endTop:303},
+{'orientation':'horizontal',startLeft:492,startTop:303,endLeft:492,endTop:303},
+{'orientation':'vertical',startLeft:492,startTop:303,endLeft:492,endTop:314}
 ]
 },
-	'outlet!uid=1239075680676':{'name':'outlet','top':438,'left':53,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':13,'height':20,'width':41,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'outlet!uid=1239075680676','type':'object'},
-	'evolver!uid=1239074666121.outlet2_outlet!uid=1239075680676.inlet1':{'inlet':'outlet!uid=1239075680676.inlet1','outlet':'evolver!uid=1239074666121.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
-{'orientation':'vertical',startLeft:53,startTop:431,endLeft:53,endTop:438},
-{'orientation':'horizontal',startLeft:53,startTop:438,endLeft:53,endTop:438},
-{'orientation':'vertical',startLeft:53,startTop:438,endLeft:53,endTop:443}
+	'var!uid=1239106918898':{'name':'var','top':272,'left':432,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':16,'height':20,'width':34,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'var!uid=1239106918898','type':'object'},
+	'message!uid=1239106610092.outlet1_var!uid=1239106918898.inlet2':{'inlet':'var!uid=1239106918898.inlet2','outlet':'message!uid=1239106610092.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:13,startTop:109,endLeft:13,endTop:115.5},
+{'orientation':'horizontal',startLeft:13,startTop:115.5,endLeft:456,endTop:115.5},
+{'orientation':'vertical',startLeft:456,startTop:115.5,endLeft:456,endTop:277}
+]
+},
+	'trigger!uid=1239106797356.outlet1_var!uid=1239106918898.inlet1':{'inlet':'var!uid=1239106918898.inlet1','outlet':'trigger!uid=1239106797356.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:432,startTop:265,endLeft:432,endTop:270},
+{'orientation':'horizontal',startLeft:432,startTop:270,endLeft:432,endTop:270},
+{'orientation':'vertical',startLeft:432,startTop:270,endLeft:432,endTop:277}
+]
+},
+	'var!uid=1239106918898.outlet1_equals!uid=1239106855656.inlet1':{'inlet':'equals!uid=1239106855656.inlet1','outlet':'var!uid=1239106918898.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:432,startTop:299,endLeft:432,endTop:305},
+{'orientation':'horizontal',startLeft:432,startTop:305,endLeft:468,endTop:305},
+{'orientation':'vertical',startLeft:468,startTop:305,endLeft:468,endTop:314}
 ]
 }}
 }
