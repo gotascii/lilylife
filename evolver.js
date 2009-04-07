@@ -1,9 +1,8 @@
-function $evolver (arg) {
+function $evolver () {
 	var thisPtr = this;
-  var world_names = LilyUtils.splitArgs(arg);
 
 	this.inlet1 = new this.inletClass("inlet1", this, "evolve on bang");
-	this.inlet2 = new this.inletClass("inlet2", this, "set world_0 name, world_1 name, world_edit name");
+  this.inlet2 = new this.inletClass("inlet2", this, "world names");
 
 	this.outlet1 = new this.outletClass("outlet1", this, "changes");
 	this.outlet2 = new this.outletClass("outlet2", this, "bang on done");
@@ -13,32 +12,16 @@ function $evolver (arg) {
     thisPtr.outlet2.doOutlet("bang");
 	}
 
-	this.inlet2["anything"] = function (obj) {
-    var args = LilyUtils.splitArgs(arg);
-    eval("thisPtr." + args[1] + " = LilyApp.getSharedValue(args[2])");
+	this.inlet2["anything"] = function (arg) {
+    var world_names = LilyUtils.splitArgs(arg);
+    thisPtr.world_0 = LilyApp.getSharedValue(world_names[0]);
+    thisPtr.world_1 = LilyApp.getSharedValue(world_names[1]);
+    thisPtr.world_edit = LilyApp.getSharedValue(world_names[2]);
+    thisPtr.max_x = LilyApp.getSharedValue("max_x");
+    thisPtr.max_y = LilyApp.getSharedValue("max_y");
 	}
 
-  this.init = function () {
-    if (thisPtr.world_0 == undefined) {
-      this.world_0 = LilyApp.getSharedValue(world_names[0]);
-    }
-    if (thisPtr.world_1 == undefined) {
-      this.world_1 = LilyApp.getSharedValue(world_names[1]);
-    }
-    if (thisPtr.world_edit == undefined) {
-      this.world_edit = LilyApp.getSharedValue(world_names[2]);
-    }
-    if (thisPtr.max_x == undefined) {
-      this.max_x = LilyApp.getSharedValue("max_x");
-    }
-    if (thisPtr.max_y == undefined) {
-      this.max_y = LilyApp.getSharedValue("max_y");
-    }
-  }
-
   this.evolve = function () {
-    thisPtr.init();
-
     var world_0 = thisPtr.world_0;
     var world_1 = thisPtr.world_1;
     var max_x = thisPtr.max_x;
@@ -100,11 +83,10 @@ function $evolver (arg) {
 	return this;
 }
 
-//meta data module- required. the module name should take the form "$"+ classname/filename +"MetaData"
 var $evolverMetaData = {
-	textName:"evolver", //the name as it will appear to the user- can be different from the filename/classname
-	htmlName:"evolver", //same as above, but valid for an xhtml document with appropriate entity substitutions. 
-	objectCategory:"Sample", //where to file, need not be an existing category
-	objectSummary:"", //one sentence description for help
-	objectArguments:"" //also for help- object argument list if any, otherwise empty.
+	textName:"evolver",
+	htmlName:"evolver",
+	objectCategory:"Sample",
+	objectSummary:"",
+	objectArguments:""
 }

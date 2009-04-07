@@ -1,6 +1,12 @@
-function $globalcoll (collName) {
+function $globalcoll () {
 	var thisPtr = this;
-	LilyApp.setSharedValue(collName,[]);
+
+	this.inlet1 = new this.inletClass("inlet1", this, "name");
+
+	this.inlet1["anything"] = function (collName) {
+	  LilyApp.setSharedValue(collName,[]);
+	}
+
 	return this;
 }
 
@@ -9,5 +15,5 @@ var $globalcollMetaData = {
 	htmlName:"globalcoll",
 	objectCategory:"Data",
 	objectSummary:"Creates a global coll.",
-	objectArguments:"coll name"
+	objectArguments:""
 }
