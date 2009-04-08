@@ -13,12 +13,16 @@ function $evolver () {
 	}
 
 	this.inlet2["anything"] = function (arg) {
-    var world_names = LilyUtils.splitArgs(arg);
-    thisPtr.world_0 = LilyApp.getSharedValue(world_names[0]);
-    thisPtr.world_1 = LilyApp.getSharedValue(world_names[1]);
-    thisPtr.world_edit = LilyApp.getSharedValue(world_names[2]);
-    thisPtr.max_x = LilyApp.getSharedValue("max_x");
-    thisPtr.max_y = LilyApp.getSharedValue("max_y");
+    if (arg == "reset") {
+      thisPtr.reset();
+    } else {
+      var world_names = LilyUtils.splitArgs(arg);
+      thisPtr.world_0 = LilyApp.getSharedValue(world_names[0]);
+      thisPtr.world_1 = LilyApp.getSharedValue(world_names[1]);
+      thisPtr.world_edit = LilyApp.getSharedValue(world_names[2]);
+      thisPtr.max_x = LilyApp.getSharedValue("max_x");
+      thisPtr.max_y = LilyApp.getSharedValue("max_y");
+    }
 	}
 
   this.evolve = function () {
@@ -73,10 +77,10 @@ function $evolver () {
     world_0[((x+1)%max_x) + ((y%max_y)*max_x)];
   }
 
-  this.loadEdit = function () {
+  this.reset = function () {
     clear(thisPtr.world_0);
-    for (var i = 0; i < world_edit.length; i++) {
-      world_1[i] = world_edit[i];
+    for (var i = 0; i < thisPtr.world_edit.length; i++) {
+      thisPtr.world_1[i] = thisPtr.world_edit[i];
     }
   }
 
