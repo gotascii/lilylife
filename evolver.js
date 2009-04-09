@@ -48,7 +48,7 @@ function $evolver () {
       var neighbors = thisPtr.neighbors(i);
       if ((neighbors == 3) && (world_0[i] == 0)) {
         world_1[i] = 1;
-      } else if (((neighbors < 2) || (neighbors >3)) && (world_0[i] == 1)) {
+      } else if (((neighbors < 2) || (neighbors > 3)) && (world_0[i] == 1)) {
         world_1[i] = -1;
       }
     }
@@ -67,7 +67,7 @@ function $evolver () {
     var x = i%max_x;
     var y = parseInt(i/max_x);
 
-    return world_0[((x+1)%max_x) + (((y+1)%max_y)*max_x)] +
+    var num = world_0[((x+1)%max_x) + (((y+1)%max_y)*max_x)] +
     world_0[(x%max_x) + (((y+1)%max_y)*max_x)] +
     world_0[((x+(max_x-1))%max_x) + (((y+1)%max_y)*max_x)] +
     world_0[((x+(max_x-1))%max_x) + ((y%max_y)*max_x)] +
@@ -75,10 +75,12 @@ function $evolver () {
     world_0[(x%max_x) + (((y+(max_y-1))%max_y)*max_x)] +
     world_0[((x+1)%max_x) + (((y+(max_y-1))%max_y)*max_x)] +
     world_0[((x+1)%max_x) + ((y%max_y)*max_x)];
+
+    return num;
   }
 
   this.reset = function () {
-    clear(thisPtr.world_0);
+    thisPtr.clear(thisPtr.world_0);
     for (var i = 0; i < thisPtr.world_edit.length; i++) {
       thisPtr.world_1[i] = thisPtr.world_edit[i];
     }
