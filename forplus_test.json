@@ -1,0 +1,24 @@
+var patch={'version':'0.1-public_beta-3','platform':'apple','title':'[subpatch]','width':800,'height':600,'color':'#FFFFFF','mode':'edit','description':'','category':'','heightInSubPatch':'0','widthInSubPatch':'0','objArray':{
+	'receive!uid=1239850867645':{'name':'receive','top':128,'left':182,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':1,'height':20,'width':76,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','args':'size','objID':'receive!uid=1239850867645','type':'object'},
+	'forplus!uid=1239850871813':{'name':'forplus','top':166,'left':142,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':2,'height':20,'width':47,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'forplus!uid=1239850871813','type':'object'},
+	'button!uid=1239850879381':{'name':'button','top':128,'left':131,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':3,'height':24,'width':24,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','inspectorConfig':[{name:"buttonText", value:"", label:"Button Text", type:"string", input:"textarea"}],'objID':'button!uid=1239850879381','type':'object'},
+	'print!uid=1239850883925':{'name':'print','top':241,'left':138,'color':'#FFFFFF','fontSize':'12','fontFamily':'Verdana','fontColor':'#000000','borderWidth':'0','borderStyle':'solid','borderColor':'#000000','opacity':1,'zIndex':4,'height':20,'width':34,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','customBorder':'false','hasBeenResized':'false','objID':'print!uid=1239850883925','type':'object'},
+	'receive!uid=1239850867645.outlet1_forplus!uid=1239850871813.inlet2':{'inlet':'forplus!uid=1239850871813.inlet2','outlet':'receive!uid=1239850867645.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:182,startTop:155,endLeft:182,endTop:166.5},
+{'orientation':'horizontal',startLeft:182,startTop:166.5,endLeft:180,endTop:166.5},
+{'orientation':'vertical',startLeft:180,startTop:166.5,endLeft:180,endTop:171}
+]
+},
+	'button!uid=1239850879381.outlet1_forplus!uid=1239850871813.inlet1':{'inlet':'forplus!uid=1239850871813.inlet1','outlet':'button!uid=1239850879381.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:131,startTop:159,endLeft:131,endTop:168},
+{'orientation':'horizontal',startLeft:131,startTop:168,endLeft:142,endTop:168},
+{'orientation':'vertical',startLeft:142,startTop:168,endLeft:142,endTop:171}
+]
+},
+	'forplus!uid=1239850871813.outlet1_print!uid=1239850883925.inlet1':{'inlet':'print!uid=1239850883925.inlet1','outlet':'forplus!uid=1239850871813.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:142,startTop:193,endLeft:142,endTop:222.5},
+{'orientation':'horizontal',startLeft:142,startTop:222.5,endLeft:138,endTop:222.5},
+{'orientation':'vertical',startLeft:138,startTop:222.5,endLeft:138,endTop:246}
+]
+}}
+}

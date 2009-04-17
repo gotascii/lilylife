@@ -16,7 +16,7 @@ function $forplus (max) {
 		thisPtr.outlet2.doOutlet("bang");
 	}
 
-	this.inlet1["anything"] = function (max) {
+	this.inlet2["anything"] = function (max) {
 	  thisPtr.max = parseInt(max);
   }
 
