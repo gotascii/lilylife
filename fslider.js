@@ -12,8 +12,8 @@ function $fslider(args)
 	var bgcolor=argsArr[0]||"#FF0000";
 	var roundness=argsArr[1]||0;
 	this.orientation=(argsArr.length>=6&&typeof argsArr[5]!="undefined")?argsArr[5]:"vertical"; //slider orientation	
-	this.rangeStart=(argsArr.length>=7&&typeof argsArr[6]!="undefined")?parseInt(argsArr[6]):1; //slider range
-	this.rangeEnd=(argsArr.length>=8&&typeof argsArr[7]!="undefined")?parseInt(argsArr[7]):20; //slider range
+	this.rangeStart=(argsArr.length>=7&&typeof argsArr[6]!="undefined")?argsArr[6]:1; //slider range
+	this.rangeEnd=(argsArr.length>=8&&typeof argsArr[7]!="undefined")?argsArr[7]:900; //slider range
 	
 	this.handleColor=bgcolor;
 	this.cornerRoundness=roundness;
@@ -233,11 +233,11 @@ function $fslider(args)
 	}
 	
 	this.inlet1["set"]=function(num) {
-		setValue(parseInt(num));
+		setValue(num);
 	}
 	
 	this.inlet1["num"]=function(num) {
-		setValue(parseInt(num));
+		setValue(num);
 	}	
 	
 	this.controller.setNoBorders(true);	
